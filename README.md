@@ -1,7 +1,7 @@
 
 This is an exercise to exemplify ones coding skills, ability to follow instruction, creativity, attention to detail, and problem resolution.
 
-##Exercise
+## Exercise
 
 **Given** a javascript array of 100,000 objects where each object is an address containing the following fields (assume that this array is returned by an ajax call):
 
@@ -46,7 +46,7 @@ Finally if you feel that this problem set and request is an unreasonable burden 
 We look forward to checking out what you build!
 
 ![UX/UI exercise specs1](Distelli_Candidate_UI_Test_Specs_01.png)
-<img src="/docs/assets/images/Distelli_Candidate_UI_Test_Specs_02.png">
-<img src="/docs/assets/images/Distelli_Candidate_UI_Test_Specs_03.png">
+![UX/UI exercise specs2](Distelli_Candidate_UI_Test_Specs_02.png)
+![UX/UI exercise specs3](Distelli_Candidate_UI_Test_Specs_03.png)
 
-See the Distelli_Candidate_UI_Test_Specs.pdf, in this repository, to view the specs.
+See the <a href="Distelli_Candidate_UI_Test_Specs.pdf">Distelli_Candidate_UI_Test_Specs.pdf</a>, in this repository, to view the specs.
