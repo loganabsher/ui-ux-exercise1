@@ -45,8 +45,8 @@ Finally if you feel that this problem set and request is an unreasonable burden 
 
 We look forward to checking out what you build!
 
-![UX/UI exercise specs1](Distelli_Candidate_UI_Test_Specs_01.png)
-![UX/UI exercise specs2](Distelli_Candidate_UI_Test_Specs_02.png)
-![UX/UI exercise specs3](Distelli_Candidate_UI_Test_Specs_03.png)
+![UX/UI exercise specs1](UI_UX_Specs_01.png)
+![UX/UI exercise specs2](UI_UX_Specs_02.png)
+![UX/UI exercise specs3](UI_UX_Specs_03.png)
 
-See the <a href="Distelli_Candidate_UI_Test_Specs.pdf">Distelli_Candidate_UI_Test_Specs.pdf</a>, in this repository, to view the specs.
+See the <a href="UI_UX__Specs.pdf">UI_UX__Specs.pdf</a>, in this repository, to view the specs.
