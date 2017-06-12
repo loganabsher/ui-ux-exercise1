@@ -49,4 +49,4 @@ We look forward to checking out what you build!
 ![UX/UI exercise specs2](UI_UX_Specs_02.png)
 ![UX/UI exercise specs3](UI_UX_Specs_03.png)
 
-See the <a href="UI_UX__Specs.pdf">UI_UX__Specs.pdf</a>, in this repository, to view the specs.
+See the <a href="UI_UX_Specs.pdf">UI_UX__Specs.pdf</a>, in this repository, to view the specs.
