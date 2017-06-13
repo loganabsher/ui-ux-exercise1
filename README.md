@@ -39,10 +39,6 @@ Ultimately check your code into a public Github repository for review.
 
 Important Note: Please do not use any opensource code (or ready made components available on the web). All code must be completely your own. You can use a font service for icons, for example FontAwesome. The component must be built from scratch using JS and React.
 
-If you have any questions please do not hesitate to reach out.
-
-Finally if you feel that this problem set and request is an unreasonable burden on your time, please consider the request withdrawn and accept our apologies. 
-
 We look forward to checking out what you build!
 
 ![UX/UI exercise specs1](UI_UX_Specs_01.png)
