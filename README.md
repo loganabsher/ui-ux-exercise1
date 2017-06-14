@@ -16,7 +16,6 @@ This is an exercise to exemplify ones coding skills, ability to follow instructi
 * Phone
 
 
-
 **Build** a single page and react JS component that implements an HTML/CSS table that displays the data as rows
 
 Each row should be one object from the array and each column should be one element of the object. 
@@ -35,9 +34,9 @@ Attention to the details such as style and layout are important and the final re
 
 Extra points for demonstrating your creativity in both design and coding.
 
-Ultimately check your code into a public Github repository for review.   
+Ultimately check your code into a public Github repository for review.
 
-Important Note: Please do not use any opensource code (or ready made components available on the web). All code must be completely your own. You can use a font service for icons, for example FontAwesome. The component must be built from scratch using JS and React.
+Important Note: Please do not use any opensource code (or ready made components available on the web). All code must be completely your own. You can use a service for fonts, for example FontAwesome. The component must be built from scratch using JS and React.
 
 We look forward to checking out what you build!
 
