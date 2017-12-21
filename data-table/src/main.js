@@ -2,28 +2,17 @@
 
 import React from 'react';
 import ReactDom from 'react-dom';
-import Faker from 'faker';
 
-const data = [];
+import App from './component/app';
 
-class App extends React.Component{
-  constructor(props){
-    super(props);
-    
-    this.makeFakeData = this.makeFakeData.bind(this);
-  }
-    
-  makeFakeData(){
-    
-  }
-  
+class AppContainer extends React.Component{
   render(){
     return(
       <div>
-        <h1>This is working</h1>
+        <App />
       </div>
     )
   }
 }
 
-ReactDom.render(<App />, document.getElementById('root'));
+ReactDom.render(<AppContainer />, document.getElementById('root'));
