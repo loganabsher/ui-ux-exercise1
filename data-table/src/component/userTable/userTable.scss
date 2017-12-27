@@ -1,0 +1,21 @@
+#table-head tr{
+  height: 32px;
+  background: #CACBCE;
+  border-radius: 3px 3px 0 0;
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+#table-head tr th{
+  color: #95A2AA;
+}
+
+#table-body tr{
+  height: 32px;
+}
+
+#table-body tr td{
+  font-size: .75rem;
+  font-weight: 400;
+  color: #808285;
+}
