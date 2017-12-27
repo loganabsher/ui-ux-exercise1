@@ -1,2 +1,3 @@
-to run this app first install the npm packages locally on your machine "npm i"
-then run the command "npm run watch", make sure you are in the "data-table" directory
+to run this app first make sure you are inside the data-table directory
+then install any npm packages locally on your machine with "npm i"
+finally run the command "npm run watch"

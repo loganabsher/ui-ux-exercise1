@@ -1,5 +1,7 @@
 'use strict';
 
+import './userTable.scss'
+
 import React from 'react';
 
 class UserTable extends React.Component{
@@ -8,41 +10,32 @@ class UserTable extends React.Component{
     this.state = {
       dataArr: this.props.dataArr
     }
-    
-    console.log(this.state.dataArr);
-    
-    this.renderTableData = this.renderTableData.bind(this);
   }
-  
-  renderTableData(){
-    
-  }
-  
+
   render(){
     return(
       <div className="user-table">
         <table>
-          <thead>
+          <thead id="table-head">
             <tr>
-              <th><button>First Name</button></th>
-              <th><button>Last Name</button></th>
-              <th><button>Country</button></th>
-              <th><button>Address</button></th>
-              <th><button>City</button></th>
-              <th><button>State</button></th>
-              <th><button>Zip</button></th>
-              <th><button>Phone</button></th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Country</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>State</th>
+              <th>Zip</th>
+              <th>Phone</th>
             </tr>
           </thead>
-          <tbody>
+          <tbody id="table-body">
             {this.state.dataArr.map((ele) => {
-              console.log(ele);
               return(
-                <tr>
+                <tr key={ele.FirstName}>
                   <td>{ele.FirstName}</td>
                   <td>{ele.LastName}</td>
                   <td>{ele.Country}</td>
-                  <td>{ele.Address}</td>
+                  <td>{ele.Street}</td>
                   <td>{ele.City}</td>
                   <td>{ele.State}</td>
                   <td>{ele.Zip}</td>

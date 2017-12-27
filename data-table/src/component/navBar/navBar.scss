@@ -1,0 +1,22 @@
+#nav-bar{
+  height: 50px;
+  background: #282653;
+  margin: 0px;
+}
+
+#nav-bar li{
+  display: inline-block;
+  list-style: none;
+}
+
+#nav-bar li a{
+  text-decoration: none;
+  font-size: .75rem;
+  font-weight: 400;
+  color: #95A2AA;
+}
+
+.nav-selected{
+  background: #7F56C5;
+  color: #FFFFFF;
+}
