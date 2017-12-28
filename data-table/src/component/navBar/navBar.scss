@@ -5,11 +5,14 @@
 }
 
 #nav-bar li{
+  height: 50px;
+  padding: 0px 15px;
   display: inline-block;
   list-style: none;
 }
 
 #nav-bar li a{
+  padding: 15px;
   text-decoration: none;
   font-size: .75rem;
   font-weight: 400;

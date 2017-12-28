@@ -9,9 +9,9 @@ class NavBar extends React.Component{
   render(){
     return(
       <ul id="nav-bar">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/table">Table</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li className={window.location.pathname === '/' ? 'nav-selected' : 'nav'}><Link to="/">Home</Link></li>
+        <li className={window.location.pathname === '/table' ? 'nav-selected' : 'nav'}><Link to="/table">Table</Link></li>
+        <li className={window.location.pathname === '/about' ? 'nav-selected' : 'nav'}><Link to="/about">About</Link></li>
       </ul>
     )
   }
