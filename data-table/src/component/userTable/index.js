@@ -12,6 +12,10 @@ class UserTable extends React.Component{
     }
   }
 
+  componentWillReceiveProps(nextProps){
+    this.setState({dataArr: nextProps.dataArr});
+  }
+
   render(){
     return(
       <div className="user-table">
@@ -21,7 +25,7 @@ class UserTable extends React.Component{
               <th>First Name</th>
               <th>Last Name</th>
               <th>Country</th>
-              <th>Address</th>
+              <th>Street</th>
               <th>City</th>
               <th>State</th>
               <th>Zip</th>
@@ -29,9 +33,9 @@ class UserTable extends React.Component{
             </tr>
           </thead>
           <tbody id="table-body">
-            {this.state.dataArr.map((ele) => {
+            {this.state.dataArr.map((ele, index) => {
               return(
-                <tr key={ele.FirstName}>
+                <tr key={index} style={{background: index % 2 === 0 ? '#F0F0F0' : '#F7F7F7'}}>
                   <td>{ele.FirstName}</td>
                   <td>{ele.LastName}</td>
                   <td>{ele.Country}</td>
